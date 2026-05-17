@@ -1,9 +1,9 @@
-=== WP Hidden Password Protected Pages ===
+=== Hidden Password Protected Pages ===
 Contributors: kimipooh
 Tags: Password Protected
 Requires at least: 6.0
-Tested up to: 6.7.2
-Stable tag: 1.2.5
+Tested up to: 7.0
+Stable tag: 1.3.0
 License: GPL v2
 
 The plugin is for hiding the password protected pages (posts) in WordPress.
@@ -22,7 +22,7 @@ Then, if you want to change the lock idle time for the password protected page, 
 
 = Usage =
 
-About the detail information, Please see "WP Hidden Password Protected Pages Settings" in Setting menu.
+About the detail information, Please see "Hidden Password Protected Pages Settings" in Setting menu.
 
 deveploping version: https://github.com/kimipooh/wp-hidden-password-protected-pages
 
@@ -39,6 +39,17 @@ If you use custom posts or want to change the view list of password protected pa
 
 
 == Changelog ==
+= 1.3.0 =
+* Improved WordPress 7.0 compatibility.
+* Updated plugin metadata and readme information.
+* Added license headers and improved Plugin Check compatibility.
+* Improved sanitization, escaping, and nonce handling.
+* Improved admin page output escaping and security checks.
+* Updated internationalization handling for modern WordPress standards.
+* Fixed mixed line endings and minor coding standards issues.
+* Renamed plugin display name to remove restricted trademark usage.
+* Tested up to WordPress 7.0.
+
 = 1.2.5 =
 * Fixed the problem of not applying to SVN properly.
 
